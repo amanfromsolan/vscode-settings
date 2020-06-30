@@ -1,0 +1,112 @@
+{
+	"oneDarkPro.vivid": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.minimap.enabled": false,
+	"workbench.colorTheme": "Atom One Dark",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+
+	"editor.fontLigatures": true,
+
+	"workbench.settings.openDefaultKeybindings": true,
+	"editor.insertSpaces": false,
+
+	"explorer.confirmDragAndDrop": false,
+	"diffEditor.ignoreTrimWhitespace": true,
+	"editor.acceptSuggestionOnEnter": "off",
+
+	"files.associations": {
+		"*.prisma": "graphql"
+	},
+
+	"terminal.integrated.shell.osx": "/bin/bash",
+	"editor.wordWrap": "on",
+	"emmet.excludeLanguages": ["markdown"],
+
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"explorer.compactFolders": false,
+	"eslint.options": {},
+	"explorer.sortOrder": "type",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+
+	/*-------------------------------   
+  *      SILENCING THE NOISE
+  -------------------------------*/
+	"workbench.activityBar.visible": false,
+	"workbench.editor.showTabs": false,
+
+	/*---------------------------------------------------------------
+  *     MY COLORS -- Configured according to One Dark theme
+  ---------------------------------------------------------------*/
+	"workbench.colorCustomizations": {
+		"editor.background": "#131e2c",
+		"editor.selectionHighlightBackground": "#1b293b",
+		"titleBar.activeBackground": "#131e2c",
+		"titleBar.inactiveBackground": "#1b293b",
+		"sideBar.background": "#131e2c",
+		"sideBarSectionHeader.background": "#1b293b",
+		"input.background": "#1b293b",
+		"input.border": "#ffffff00",
+
+		// For sidebar
+		"list.hoverBackground": "#1d2e44",
+		"list.focusBackground": "#182a42",
+		"list.activeSelectionBackground": "#284264",
+		"list.inactiveSelectionBackground": "#1d2e44",
+
+		// For Cmd + P menu
+		"quickInput.background": "#131e2c"
+	},
+
+	/*--------------------------
+  * Other settings
+  ----------------------------*/
+
+	// Code preferences
+	"editor.tabSize": 4,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"editor.formatOnSave": true,
+
+	// Minimising visual inputs
+	"workbench.sideBar.location": "right",
+	"explorer.openEditors.visible": 0,
+	"editor.lineNumbers": "off",
+	"editor.renderLineHighlight": "none",
+	"editor.renderControlCharacters": false,
+	"editor.matchBrackets": "never",
+	"workbench.editor.limit.enabled": true,
+
+	// Zen mode
+	"zenMode.fullScreen": false,
+	"zenMode.centerLayout": false,
+	"zenMode.hideActivityBar": true,
+	"zenMode.hideTabs": true,
+	"window.title": "${folderName}",
+
+	// Editor Typography
+	"editor.lineDecorationsWidth": 120, // Adds padding to the left
+	"workbench.fontAliasing": "antialiased",
+
+	"editor.lineHeight": 32,
+	"editor.letterSpacing": 0.2,
+	"editor.fontSize": 14,
+	"editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontWeight": "400",
+
+	// Editor Suggestions Typography
+	"editor.suggestFontSize": 16,
+	"editor.suggestLineHeight": 28,
+
+	// Terminal Typography
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.lineHeight": 1.5,
+	"terminal.integrated.fontWeight": "300",
+	"workbench.editor.labelFormat": "short",
+	"breadcrumbs.enabled": true,
+
+	"explorer.autoReveal": true,
+
+	"window.zoomLevel": 0.75
+}
