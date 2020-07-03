@@ -12,4 +12,4 @@ Here are a few handy shortcuts to get your started:
 
 For the full set, have a look at the keybindings.json. 
 
-The settings were heavily inspired by [Caleb Porzio](https://twitter.com/calebporzio) and [his newsletter](makevscodeawesome.com).
+The settings were heavily inspired by [Caleb Porzio](https://twitter.com/calebporzio) and [his newsletter](https://makevscodeawesome.com).
