@@ -1,4 +1,4 @@
-# vscode-settings
+# My VS Code Setup 💻
 Contains my "keybinding.json" and "settings.json" files. 
 
 After adding the settings.json, this is how you can expect your VSCode to look like: 
